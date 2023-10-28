@@ -1,8 +1,8 @@
 from os import path, getenv
 
 class Config:
-    API_ID = getenv("API_ID", '6620972')
-    API_HASH = getenv("API_HASH", '3f6835286b03e000ab6d71b37cc35b92')
+    API_ID = getenv("API_ID", '29922662')
+    API_HASH = getenv("API_HASH", 'fabd9f89368de7cc31357522a0089a56')
     BOT_TOKEN = getenv("BOT_TOKEN", '6752673741:AAH-QZBm9WaOUprxPvJ4OV3bNa4rvjrZkTM')
     FSUB = getenv("FSUB", "CV_offical")
     CHID = getenv("CHID", '-1001574664407')
