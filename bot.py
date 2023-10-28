@@ -7,7 +7,7 @@ from configs import cfg
 import random, asyncio
 
 app = Client(
-    "approver",
+    "approverz",
     api_id=cfg.API_ID,
     api_hash=cfg.API_HASH,
     bot_token=cfg.BOT_TOKEN
