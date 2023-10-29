@@ -6,12 +6,15 @@ from database import add_user, add_group, all_users, all_groups, users, remove_u
 from configs import cfg
 import random, asyncio
 
+
 app = Client(
     "approverz",
     api_id=cfg.API_ID,
     api_hash=cfg.API_HASH,
     bot_token=cfg.BOT_TOKEN
 )
+
+joyal = app
 
 gif = [
     'https://telegra.ph/file/a5a2bb456bf3eecdbbb99.mp4',
@@ -188,4 +191,4 @@ async def fcast(_, m : Message):
     await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
 
 print("I'm Alive Now!")
-app.run()
+joyal.run()
