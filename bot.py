@@ -14,8 +14,6 @@ app = Client(
     bot_token=cfg.BOT_TOKEN
 )
 
-joyal = app
-
 gif = [
     'https://telegra.ph/file/a5a2bb456bf3eecdbbb99.mp4',
     'https://telegra.ph/file/03c6e49bea9ce6c908b87.mp4',
@@ -190,4 +188,6 @@ async def fcast(_, m : Message):
 
     await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
 
+app.run()
 print("I'm Alive Now!")
+
