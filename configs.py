@@ -1,8 +1,8 @@
 from os import path, getenv
 
 
-    API_ID = int(getenv("API_ID", "29922662"))
-    API_HASH = getenv("API_HASH", "fabd9f89368de7cc31357522a0089a56")
+    API_ID = int(getenv("API_ID", "6620972"))
+    API_HASH = getenv("API_HASH", "3f6835286b03e000ab6d71b37cc35b92")
     BOT_TOKEN = getenv("BOT_TOKEN", "6752673741:AAEBQf_ZescNZlF_bp6V6b8b_bpuMXXyr0s")
     FSUB = getenv("FSUB", "")
     CHID = int(getenv("CHID", ""))
