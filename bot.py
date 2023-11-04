@@ -188,6 +188,7 @@ async def fcast(_, m : Message):
 
     await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
 
-app.run()
+port = int(os.environ.get("PORT", 5000))
+app.run(debug=True, host='0.0.0.0', port=port)
 print("I'm Alive Now!")
 
