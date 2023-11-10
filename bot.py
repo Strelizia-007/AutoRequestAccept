@@ -8,7 +8,7 @@ import random, asyncio
 import os
 
 app = Client(
-    "approverz",
+    "approver",
     api_id=cfg.API_ID,
     api_hash=cfg.API_HASH,
     bot_token=cfg.BOT_TOKEN
